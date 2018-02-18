@@ -1,0 +1,9 @@
+me/joaoemilio/petclinic/microservice/vets/Application.class
+me/joaoemilio/petclinic/microservice/vets/exception/IllegalArgumentExceptionMapper.class
+me/joaoemilio/petclinic/microservice/vets/model/Specialty.class
+me/joaoemilio/petclinic/microservice/vets/resource/VetResource.class
+me/joaoemilio/petclinic/microservice/vets/SameUsernamePasswordInterceptor.class
+me/joaoemilio/petclinic/microservice/vets/config/PersistenceConfig.class
+me/joaoemilio/petclinic/microservice/vets/resource/HealthCheckResource.class
+me/joaoemilio/petclinic/microservice/vets/model/Vet.class
+me/joaoemilio/petclinic/microservice/vets/dao/VetRepository.class

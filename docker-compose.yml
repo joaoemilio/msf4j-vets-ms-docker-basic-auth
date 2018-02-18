@@ -1,0 +1,25 @@
+version: '2.3'
+services:
+  mysql-petclinic:
+    image: mysql:5.7.19
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: rootroot
+    volumes:
+      - ./src/main/resources/db/mysql/:/docker-entrypoint-initdb.d      
+    command: [--ssl=0]
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-uroot", "-prootroot"]
+      interval: 10s
+      timeout: 60s
+      retries: 5
+  msf4j-vets:
+    image: vets:1.0.0
+    ports: 
+      - 8080:8080
+    depends_on:
+      mysql-petclinic:
+        condition: service_healthy
+    links:
+      - mysql-petclinic
