@@ -58,6 +58,7 @@ public class VetResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response getAllVets() {
+
         List<Vet> allVets = repository.findAll();
         return Response.status(Response.Status.ACCEPTED).entity(allVets).build();
     }

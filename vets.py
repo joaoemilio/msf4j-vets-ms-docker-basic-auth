@@ -19,13 +19,14 @@ call_api = os.environ["CALL_API"]
 #url = "https://gateway.mywso2.com:8243/token"
 url = "https://localhost:8243/token"
 #clientid=os.environ["CLIENTID"]
-clientid="UXvqphRGA3HInrkYYhzfmlb6sd0a"
-secret="OqWW2ohlmXfZzqpJNj31zIWIqGwa"
+clientid="Ofckxh2HxiWV4XGUVoxFpU4n9H0a"
+secret="f1o6RyL85AWGEf8Gbe8ZMRDGRBMa"
 #secret=os.environ["SECRET"]
 headers={'Authorization': 'Basic ' + base64.b64encode(clientid+':'+secret),'Content-Type': 'application/x-www-form-urlencoded'}
 #scope=os.environ['SCOPE']
-scope="openid"
-data = 'grant_type=client_credentials&scope='+scope
+scope="openid scope_gerente"
+#data = 'grant_type=client_credentials&scope='+scope
+data = 'username=joao&password=joao1234&grant_type=password'
 
 response = requests.post(url, data=data,headers=headers,verify=False)
 

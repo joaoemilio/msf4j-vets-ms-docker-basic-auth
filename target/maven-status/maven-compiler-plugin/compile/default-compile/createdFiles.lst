@@ -6,4 +6,5 @@ me/joaoemilio/petclinic/microservice/vets/SameUsernamePasswordInterceptor.class
 me/joaoemilio/petclinic/microservice/vets/config/PersistenceConfig.class
 me/joaoemilio/petclinic/microservice/vets/resource/HealthCheckResource.class
 me/joaoemilio/petclinic/microservice/vets/model/Vet.class
+me/joaoemilio/petclinic/microservice/vets/HeaderLogInterceptor.class
 me/joaoemilio/petclinic/microservice/vets/dao/VetRepository.class
