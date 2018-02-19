@@ -3,7 +3,7 @@ services:
   mysql-petclinic:
     image: mysql:5.7.19
     ports:
-      - 3306:3306
+      - 3307:3307
     environment:
       MYSQL_ROOT_PASSWORD: rootroot
     volumes:
@@ -17,7 +17,7 @@ services:
   msf4j-vets:
     image: vets:1.0.0
     ports: 
-      - 8080:8080
+      - 9090:9090
     depends_on:
       mysql-petclinic:
         condition: service_healthy
