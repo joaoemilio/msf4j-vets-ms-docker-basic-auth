@@ -17,7 +17,7 @@ services:
   msf4j-vets:
     image: vets:1.0.0
     ports: 
-      - 9090:9090
+      - 9090:8080
     depends_on:
       mysql-petclinic:
         condition: service_healthy
