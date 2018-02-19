@@ -15,6 +15,7 @@ import java.util.Map;
 public class HeaderLogInterceptor implements Interceptor {
     @Override
     public boolean preCall(Request request, Response response, ServiceMethodInfo serviceMethodInfo) throws Exception {
+        System.out.println( "precall ");
         List<Header> list = request.getHeaders().getAll();
         for( Header h: list) {
             System.out.println("Header Name: " + h.getName() + " value : " + h.getValue());
@@ -25,6 +26,6 @@ public class HeaderLogInterceptor implements Interceptor {
 
     @Override
     public void postCall(Request request, int i, ServiceMethodInfo serviceMethodInfo) throws Exception {
-
+        System.out.println( "postCall ");
     }
 }
