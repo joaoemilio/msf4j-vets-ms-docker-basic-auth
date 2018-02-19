@@ -15,7 +15,7 @@ services:
       timeout: 60s
       retries: 5
   msf4j-vets:
-    image: vets:1.0.0
+    image: vets:1.1.0
     ports: 
       - 9090:8080
     depends_on:

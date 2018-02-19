@@ -3,6 +3,7 @@
 /Users/joaoemilio/wso2/projects/bndes/demo/msf4j-vets-ms-docker-basic-auth/src/main/java/me/joaoemilio/petclinic/microservice/vets/SameUsernamePasswordInterceptor.java
 /Users/joaoemilio/wso2/projects/bndes/demo/msf4j-vets-ms-docker-basic-auth/src/main/java/me/joaoemilio/petclinic/microservice/vets/exception/IllegalArgumentExceptionMapper.java
 /Users/joaoemilio/wso2/projects/bndes/demo/msf4j-vets-ms-docker-basic-auth/src/main/java/me/joaoemilio/petclinic/microservice/vets/resource/VetResource.java
+/Users/joaoemilio/wso2/projects/bndes/demo/msf4j-vets-ms-docker-basic-auth/src/main/java/me/joaoemilio/petclinic/microservice/vets/HeaderLogInterceptor.java
 /Users/joaoemilio/wso2/projects/bndes/demo/msf4j-vets-ms-docker-basic-auth/src/main/java/me/joaoemilio/petclinic/microservice/vets/resource/HealthCheckResource.java
 /Users/joaoemilio/wso2/projects/bndes/demo/msf4j-vets-ms-docker-basic-auth/src/main/java/me/joaoemilio/petclinic/microservice/vets/Application.java
 /Users/joaoemilio/wso2/projects/bndes/demo/msf4j-vets-ms-docker-basic-auth/src/main/java/me/joaoemilio/petclinic/microservice/vets/model/Specialty.java
